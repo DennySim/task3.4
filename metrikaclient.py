@@ -9,8 +9,9 @@ auth_data = dict(
     client_id=APP_ID
 )
 # print('?'.join((AUTH_URL, urlencode(auth_data))))
-TOKEN = 'AQAAAAAAQ9XXAAUALX_4geWYakwrqiOsZwOuZKY'
-
+# TOKEN = 'AQAAAAAAQ9XXAAUALX_4geWYakwrqiOsZwOuZKY'
+print('Enter your token')
+TOKEN = input()
 
 class YaMetrikaManagement:
 
