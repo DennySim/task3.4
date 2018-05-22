@@ -60,7 +60,7 @@ class Reports:
             return response.json()['data']
 
 
-ya_user1 =YaMetrikaManagement(TOKEN)
+ya_user1 = YaMetrikaManagement(TOKEN)
 
 
 def print_output():
